@@ -1,0 +1,14 @@
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../static/img/sources/webicon.png" type="image/x-icon" />
+    {% block stylesheets %}{% endblock %}
+    {% block head_javascripts %}{% endblock %}
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+
+{% block tail_javascripts %}{% endblock %}
